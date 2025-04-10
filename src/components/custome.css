@@ -1,0 +1,350 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body {
+  font-family: 'Roboto', sans-serif;
+}
+.img1{
+  width: 20px;
+  
+}
+
+.navbar{
+  gap: 30px;
+    background-color:#fff;
+    height: 70px;
+    width: 100%;
+    padding: 10px 25px;
+    align-items: center;
+    font-family: sans-serif;
+    justify-content: space-between;
+    display: flex;
+    color: #000;
+    font-family: "Roboto", serif;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid #ccc;
+    position: fixed;
+
+}
+
+ .icon{
+   color: #fff;
+ }
+
+ span{
+   padding: 5px;
+    color:#ffc107;
+    gap: 10px;
+    font-size: 50px;
+    font-weight: 600;
+ }
+
+ h1{
+   font-size: 60px;
+   font-weight: 600;
+   color: #fff;
+   text-align: center;
+
+ }
+ p{
+  color: #fff;
+  font-size: 38px;
+  text-align: center;
+
+
+ }
+ ul{    
+    margin: 35px;
+      display: flex;
+      gap: 20px;
+      align-items: flex-end;
+   
+}
+ li{
+    text-decoration: none;  
+    list-style: none;
+    color: white;
+    font-size: 13px;
+    font-weight: 800;
+
+}
+
+li {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: transparent;
+  border: 2px solid transparent; 
+  transition: all 0.3s ease; 
+}
+
+/* Hover effect */
+li:hover {
+  border-color: #ffc107; 
+  color: white; 
+  padding: 10px 15px;
+}
+
+
+li a{
+gap: 5px;
+}
+
+li {
+  list-style: none;
+  position: relative;
+}
+
+li a {
+  text-decoration: none;
+  color: black; 
+  font-size: 16px;
+  display: block;
+  padding: 10px 15px;
+  cursor: pointer;
+}
+.video {
+  margin-top: 0;
+  padding: 0;
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  overflow: hidden;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+  gap: 40px;
+ 
+}
+
+.background-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transform: translate(-50%, -50%);
+  z-index: -1; 
+ 
+}
+.content {
+  position: relative;
+  color: white;
+  text-align: center;
+  justify-content: center;
+  z-index: 1; 
+}
+
+
+.btn {
+  background-color: #ffc107;
+  padding: 10px 20px;
+  height: 50px;
+  justify-content: center;
+  color: black;
+  text-align: center;
+  border: none;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 20px;
+  line-height: 1;
+  gap: 8px;
+  letter-spacing: 1px;
+}
+
+.container2{
+ width: 100%;
+ height: 100vh;
+ text-align: center;
+ align-items: center;
+ background-color: #fff;
+}
+
+
+
+
+
+
+.heading-main {
+  margin: 60px 350px 10px 200px;
+  color: #000;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.heading-sub {
+  color: blue;
+  text-align: center;
+  /* margin: 20px; */
+  font-weight: 300;
+  margin: 10px 450px 10px 200px;
+  font-size: 20px;
+
+}
+.heading-right {
+  text-align: center;
+  margin: 10px 180px 10px 200px;
+  font-weight: 300;
+  color: #000; 
+  font-size: 20px;
+}
+
+.content-paragraph {
+  text-align: left;
+  font-size: 14px;
+  color: #84828d;
+  line-height: 1.6;
+  max-width: 600px;
+  justify-content: flex-start;
+ 
+}
+.btn2{
+  margin-top: 20px;
+  height: 40px;
+  padding: 10px 30px;
+  gap: 5px;
+  text-align: center;
+  border-radius: 20px;
+  font-size: 15px;
+  font-weight: 400;
+  border: 1px solid black;
+
+}
+
+.btn2:hover{
+  background: #ffc107;
+  color: #000;
+}
+.img3{
+  text-align: left;
+  margin: 10px 200px 20px 200px; 
+  display: flex;
+  gap: 30px;
+  justify-content: flex-end;
+
+}
+
+/* customesolution */
+
+.custom-solutions-container {
+  padding: 5px;
+  margin-top: 30px;
+  background-color: #f4f1f1;
+  display: flex;
+  
+}
+
+.header {
+  text-align: left;
+  margin: 20px 100px 20px 100px;
+  color: #000;
+  font-size: 38px;
+  font-weight: 500;
+
+}
+
+.solutions-grid {
+  gap:300px;
+  margin: 10px;
+  width: 66.66%;
+}
+.nested-grid {
+  display: grid; 
+  grid-template-columns: 1fr 1fr; /* 2 equal columns */
+  grid-template-rows: repeat(4, 1fr); 
+
+}
+
+.solution-card {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+  background-color: white;
+  transition: transform 0.2s;
+}
+h2{
+  font-size: 18px;
+  font-weight: 300;
+}
+.solution-card:hover {
+  transform: scale(1.05);
+}
+
+.solution-card-primary {
+  background-color: #003DA5;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.highlight {
+  color: yellow;
+  font-size: 25px;
+}
+
+.featured-section {
+   text-align: right;
+    background-size: cover;
+    background-position: center;
+    /* height: 100vh; or whatever height you want */
+    width: 33.33%;
+    color: #fff;
+
+}
+
+
+
+.read-more-button {
+  margin-top: 10px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.read-more-button:hover {
+  background-color: #0057D9;
+}
+
+
+.featured-h2{
+  margin: 400px 40px 20px 40px;
+  color: #fff;
+  text-align:start ;
+  font-weight: bold;
+}
+
+.content1-paragraph{
+  margin: 10px 40px 20px 40px;
+  text-align: start;
+  font-size: 17px;
+  color: #fff;
+  
+}
+ .span{
+ color: #003DA5;
+  font-size: 20px;
+  justify-content: flex-start;
+ }
+
+ .btn3{
+  margin: 10px 40px 20px 40px;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: start;
+  background: none;
+  color: #fff;
+  border: none;
+  float: left;
+ }
